@@ -1,4 +1,4 @@
 output "random_result" {
     description     = "A string comprised of the prefix input, padded with random characters"
-    value           = "${local.result}"
+    value           = local.result
 }
